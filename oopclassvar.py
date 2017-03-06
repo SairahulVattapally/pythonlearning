@@ -20,6 +20,7 @@ emp_2=Employee('Test', 'User', 60000)
 
 # print emp_1.fullname()
 # print Employee.fullname(emp_2)
+emp_1.raise_amount=1.06
 print (Employee.num_of_emps)
 print (emp_1.__dict__)
 print (emp_1.raise_amount)
